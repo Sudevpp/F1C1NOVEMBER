@@ -11,15 +11,21 @@ nav{
     display: flex;
 justify-content: space-between;
 background-color:#FCAF02 ;
+position: fixed;
+left: 0;
+right: 0;
+padding-inline: 20px;
 }
  
-#list1>ul{
+#list1{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-margin-right: 100px;
-}
 
+}
+#list>a{
+    text-decoration: none;
+}
 #intro{ 
     color: white;
 display: flex;
